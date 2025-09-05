@@ -21,6 +21,7 @@ const RegisterPage = () => {
       // Redirect to login page on successful registration
       router.push("/login");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state]);
 
   return (

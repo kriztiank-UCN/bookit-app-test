@@ -17,6 +17,7 @@ const AddRoomPage = () => {
       toast.success("Room created successfully!");
       router.push("/");
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [state]);
 
   return (
